@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '919128983695';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '919128983695' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -20,12 +20,12 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.pairingNumber = process.env.BOT_NUMBER || '919128983695' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'qBIxkB6Y#jzbxOVeEAKI6DCmg_tUiouCpavb4EyyZNpnJEKg_MEg' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['917870107458', '919128983695']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://www.instagram.com/im_gutz?igsh=aHFyM2dpM2VjMmI4'
 
 
 global.APIs = {
@@ -75,13 +75,13 @@ global.APIKeys = {
 global.premium = 'true'
 global.packname = 'MEGA-AI'
 global.author = 'GlobalTechInfo'
-global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.menuvid = 'https://files.catbox.moe/zvxila.jpg'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/im_gutz?igsh=aHFyM2dpM2VjMmI4'
+global.dygp = 'https://www.youtube.com/@imgutz'
 global.fgsc = 'https://github.com/GlobalTechInfo/MEGA-AI'
-global.fgyt = 'https://youtube.com/@GlobalTechInfo'
-global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
-global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
+global.fgyt = 'https://www.youtube.com/@imgutz'
+global.fgpyp = 'https://www.youtube.com/@imgutz'
+global.fglog = 'https://files.catbox.moe/zvxila.jpg'
 global.thumb = fs.readFileSync('./assets/A.jpg')
 
 global.wait = '⏳'
