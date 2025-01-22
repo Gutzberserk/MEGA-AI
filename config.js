@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '919128983695';
+const defaultOwner = '3584573999082';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '919128983695' ; // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '3584573999082' ; // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -20,12 +20,12 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '919128983695' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'qBIxkB6Y#jzbxOVeEAKI6DCmg_tUiouCpavb4EyyZNpnJEKg_MEg' ;  // put your session id here
+global.pairingNumber = process.env.BOT_NUMBER || '3584573999082' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'mdg2HTZA#zDSsEW36kJAm65Ew4aCvwbHTZv0uDHEhhI8YPGJf5IE' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['917870107458', '919128983695']
+global.allowed = ['917870107458', '3584573999082']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
